@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run OpenCV",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${fileDirname}/${fileBasenameNoExtension}",
+      "preLaunchTask": "build opencv",
+      "cwd": "${fileDirname}",
+      "MIMode": "gdb"
+    }
+  ]
+}
