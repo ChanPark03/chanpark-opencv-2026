@@ -11,7 +11,7 @@ include_directories(
     /usr/include/x86_64-linux-gnu/opencv4
 )
 
-file(GLOB PART1_SOURCES "part1/*.cpp")
+file(GLOB PART1_SOURCES CONFIGURE_DEPENDS "part1/*.cpp")
 
 foreach(SOURCE ${PART1_SOURCES})
     get_filename_component(TARGET_NAME ${SOURCE} NAME_WE)

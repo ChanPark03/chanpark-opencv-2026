@@ -5,7 +5,7 @@
 using namespace std;
 using namespace cv;
 
-String folderPath = "/home/aa/kuBig2026/opencv_ex/data/";
+cv::String folderPath = "/home/chan/chanpark-opencv-2026/opencv_ex/data/";
 
 void printMat(InputArray _mat, OutputArray _output);
 
@@ -27,5 +27,5 @@ void printMat(InputArray _mat, OutputArray _output)
     cout << img << endl;
     Mat img2 = img + 3;
     img2.copyTo(_output);
-    
+
 }
